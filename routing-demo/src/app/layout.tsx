@@ -1,6 +1,7 @@
 import Footer from "../components/footer"
 import Header from "../components/header"
 import { Metadata } from "next"
+import './global.css'
 
 export const metadata:Metadata = {
   title:{

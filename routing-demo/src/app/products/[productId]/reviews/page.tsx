@@ -13,7 +13,7 @@ export default async function page({params}:{
       <h1>Reviews</h1>
       {reviews.map((elt)=>(
         <div key={elt}>
-          <Link href={`/products/${productId}/reviews/${elt}`}>{elt}</Link>
+          <Link href={`/products/${productId}/reviews/${elt}`} >{elt}</Link>
         </div>
       ))}
     </div>

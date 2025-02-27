@@ -8,7 +8,7 @@ export default function Products() {
       {
         arr.map(elt=>(
           <div key={elt}>
-            <Link href={`/products/${elt}`}>{elt}</Link>
+            <Link href={`/products/${elt}`} >{elt}</Link>
           </div>
         ))
       }
